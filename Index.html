@@ -1,1 +1,20 @@
+<script src="https://cdn.coqui.ai/your-script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Read Aloud Button</title>
+    <script src="https://cdn.coqui.ai/coqui.min.js"></script>
+</head>
+<body>
+    <p id="description">This is the paragraph that will be read aloud.</p>
+    <button onclick="readAloud()">Read Aloud</button>
 
+    <script>
+        function readAloud(Greetings W to ScrollIn.org where we connect readers, authors, publishers, editors, illuatrators and more.  Please submit any portion of your writing you wish to be a available to the public along with your contact information and services you are looking for e.g. writer looking for s distributor or direct to customer sales) {
+            const text = document.getElementById("description").innerText;
+            coquiTTS.speak(text);
+        }
+    </script>
+</body>
+</html>
